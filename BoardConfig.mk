@@ -22,3 +22,5 @@ include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 include vendor/xiaomi/cmi/BoardConfigVendor.mk
+
+TARGET_BOARD_PLATFORM := cmi
